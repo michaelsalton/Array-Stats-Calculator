@@ -124,38 +124,3 @@ int main(){
 
     return 0;
 }
-
-/* PART TWO
-
-1. 
-    1. "echo *"
-        Echo passes the strings thatr are passed to it as arguments, ls * lists all directories in 
-        the current directory aswell as all files and directories within those directories. 
-        Therefore echo * lists the directories and files in the current working directory as strings.
-    2. "rm -i" to be prompted before removing a file or directory. "rm -f" to not be prompted before
-        removing a file or directory. If both are used simutaneously whichever one is written second will 
-        take precedence.
-    3. mv changes the name of the file, you write the old name and the new name and it changed the file 
-        to the new name. rename is used for bulk changing names, you can change thousands of files at once.
-    4. ELF stands for executable and linkable format. It's a standard file format for executable files.
-        In this context it means the binary is little-endian
-    5. du shows how much disk space is used for the given file and takes into consideration all blocks 
-        not just data blocks. ls shows the file size but the total space in the directory is 
-        again shown with all space used not just the data blocks.
-
-2.
-    1. mkdir -p grandparent/parent/child
-    2. "mkdir hello\ world" or "mkdir 'hello world'"
-       "rmdir hello\ world" or "rmdir 'hello world'"
-    3. "mkdir -m500 newDir"
-    4. "cd -"
-    5. 
-    
-3.
-    1.
-    2. "chwon --reference=file1 file2"
-    3. only stat comman is enough to list all details
-    4. "chmod 755 directory"
-    5. the default one is a and the permissions that are set by the umask are not affacted
-*/
-
