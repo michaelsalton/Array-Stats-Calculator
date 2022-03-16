@@ -1,5 +1,5 @@
 /*
-Filename: 2211_assign3
+Filename: Array-Stats-Calculator
 Filetype: C File
 Author: Michael Salton
 Created on: 02/22/22
